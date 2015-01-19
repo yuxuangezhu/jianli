@@ -74,7 +74,7 @@ $(document).ready(function () {
             }
     }
 
-    $("#bth li").find("a").bind("click","touchStart",function(){
+    $("#bth li").find("a").bind("click",function(){
         id = parseInt(this.id);
         clientHeight = (document.body.clientHeight)*id;
         switchCheck(id);
@@ -89,10 +89,10 @@ $(document).ready(function () {
             moveDown();
         }
     });
-    $("#down-bth").bind("click","touchStart",function(){
+    $("#down-bth").bind("click",function(){
         moveUp();
     })
-    $(".welcome").bind("click","touchStart",function(){
+    $(".welcome").bind("click",function(){
         moveUp();
     })
 
@@ -156,6 +156,7 @@ $(document).ready(function () {
     }
 
     function touchStart(event) {
+            //event.preventDefault();
              if (!event.touches.length) return;
              var touch = event.touches[0];
              startY = touch.pageY;
@@ -165,6 +166,7 @@ $(document).ready(function () {
     window.addEventListener("touchstart", touchStart, false);
 
     function touchMove(event) {
+        event.preventDefault();
         if (!event.touches.length) return;
         var touch=event.touches[0];
         move=touch.pageY-startY;
@@ -173,6 +175,7 @@ $(document).ready(function () {
 
     window.addEventListener("touchmove", touchMove, false);
     function touchEnd(){
+        //event.preventDefault();
         if(move<0){
             moveUp();
             
