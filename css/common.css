@@ -236,4 +236,13 @@ li {
 .hr{
 display: none;
 }
+.page-five-left{
+    width: 100%;
+}
+.page-five-right{
+    display: none;
+}
+#tagsList{
+    margin: 35% 50% 3% 40%;
+}
 }
