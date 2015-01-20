@@ -6,7 +6,7 @@ body {
     bottom: 0;
     position: absolute;
     margin: 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 a {
     text-decoration:none;
