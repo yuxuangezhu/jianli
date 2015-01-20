@@ -156,7 +156,7 @@ $(document).ready(function () {
     }
 
     function touchStart(event) {
-            //event.preventDefault();
+            event.preventDefault();
              if (!event.touches.length) return;
              var touch = event.touches[0];
              startY = touch.pageY;
@@ -175,7 +175,7 @@ $(document).ready(function () {
 
     window.addEventListener("touchmove", touchMove, false);
     function touchEnd(){
-        //event.preventDefault();
+        event.preventDefault();
         if(move<0){
             moveUp();
             
