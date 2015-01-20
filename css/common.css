@@ -165,7 +165,7 @@ li {
 .page-four-bottom{
     margin-left: 1000px;
 }
-.page-four-body hr{
+.page-four-body .hr hr{
     width: 98%;
     height: 2%;
     background-color: #2296E8;
