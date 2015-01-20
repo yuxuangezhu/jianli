@@ -155,9 +155,11 @@ li {
     height: 99%;
     margin: 0;
     padding-top: 1%;
+    padding: 0;
 }
 .page-four-bottom ul{
     margin-left: 10%;
+
 }
 .page-four-top{
     display: none;
@@ -174,7 +176,7 @@ li {
 }
 .hr{
     width: 100%;
-    height: 20%;
+    height: 13%;
 }
 .page-four-body li{
     background-color: #D3D6DB;
