@@ -74,7 +74,7 @@ $(document).ready(function () {
             }
     }
 
-    $("#bth li").find("a").bind("click","touchStart",function(){
+    $("#bth li").find("a").bind("click",function(){
         id = parseInt(this.id);
         clientHeight = (document.body.clientHeight)*id;
         switchCheck(id);
@@ -89,10 +89,10 @@ $(document).ready(function () {
             moveDown();
         }
     });
-    $("#down-bth").bind("click","touchStart",function(){
+    $("#down-bth").bind("click",function(){
         moveUp();
     })
-    $(".welcome").bind("click","touchStart",function(){
+    $(".welcome").bind("click",function(){
         moveUp();
     })
 
