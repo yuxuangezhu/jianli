@@ -1,227 +1,225 @@
 body {
-    padding:0;
+    position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    position: absolute;
-    margin: 0px;
+    left: 0;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 .section {
     height: 100%;
     text-align: center;
     background-size: cover;
 }
-.ability{
-    margin: 0 auto;
-    width: 600px;
-    line-height: 100px;
+.ability {
     font-size: 30px;
+    line-height: 100px;
+    width: 600px;
+    margin: 0 auto;
     color: #fff;
 }
-.page-one{
-    width:600px;
-    height:350px;
+.page-one {
+    width: 600px;
+    height: 350px;
     /*background-color:#fff;*/
     margin: 0 auto;
     text-align: center;
 }
-.welcome{
-    width: 200px;
+.welcome {
+    font-weight: bold;
     line-height: 50px;
-    background-color: #2296E8;
-    border-radius: 10px;
+    width: 200px;
     margin: 0 auto;
     color: #fff;
-    font-weight: bold
+    border-radius: 10px;
+    background-color: #2296e8;
 }
-.welcome a{
+.welcome a {
     color: #fff;
 }
-.page-one-bar{
+.page-one-bar {
     font-size: 50px;
     line-height: 120px;
-    margin: 0px;
-    color: #fff;
+    margin: 0;
     padding-top: 20px;
+    color: #fff;
 }
 #bth li {
     width: 10px;
     height: 10px;
-    border-radius: 10px;
     margin-top: 10px;
     border: 1px solid #2296e8;
+    border-radius: 10px;
 }
 #bth {
-    width: 20px;
     position: fixed;
     top: 50%;
     right: 5%;
+    width: 20px;
 }
 li {
     list-style-type: none;
 }
 .body {
-    height: 100%;
     position: relative;
-    top: 0px;
+    top: 0;
+    height: 100%;
 }
 #bth li a {
+    position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #fff;
     border-radius: 10px;
-    position: absolute;
+    background-color: #fff;
 }
 #down-bth {
-    background-image: url(../images/down.png);
-    width: 30px;
-    height: 30px;
-    display: block;
     position: fixed;
     bottom: 10px;
     left: 49%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/down.png);
 }
-.page-two-left{
-    float: left;
-    width: 630px;
-    color: #fff;
-    margin: 5%;
-    text-align: left;
+.page-two-left {
     font-size: 16px;
     font-weight: bold;
+    float: left;
+    width: 630px;
+    margin: 5%;
+    text-align: left;
+    color: #fff;
 }
-.page-two-left p{
+.page-two-left p {
     display: none;
 }
 #tagsList {
     position: absolute;
-    width:600px;
-    height:300px;
+    width: 600px;
+    height: 300px;
     margin: 3% 50%;
 }
 #tagsList a {
-    position:absolute;
-    top:0px;
-    left:0px;
     font-family: Microsoft YaHei;
-    color:#fff;
-    font-weight:bold;
-    text-decoration:none;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
     padding: 3px 6px;
+    text-decoration: none;
+    color: #fff;
 }
 #tagsList a:hover {
-    color:#FF0000;
-    letter-spacing:2px;
+    letter-spacing: 2px;
+    color: #f00;
 }
-.page-three-body{
+.page-three-body {
     width: 80%;
     height: 300px;
     margin: 0 auto;
 }
-.page-three-body li{
+.page-three-body li {
+    display: none;
     float: left;
+    overflow: hidden;
     width: 30%;
     height: 200px;
-    margin-left: 2%;
     margin-bottom: 2%;
-    display: none; 
-    overflow: hidden;
+    margin-left: 2%;
 }
-.page-three-body img{
+.page-three-body img {
     width: 100%;
     background-color: #fff;
 }
-.page-four-body{
+.page-four-body {
+    overflow: hidden;
     width: 80%;
     height: 400px;
     margin: 0 auto;
     text-align: left;
-    overflow: hidden;
 }
-.page-four-body span{
+.page-four-body span {
     color: #fff;
 }
-.page-four-top,.page-four-bottom{
+.page-four-top,
+.page-four-bottom {
     width: 100%;
     height: 45%;
 }
-.page-four-top ul,.page-four-bottom ul{
+.page-four-top ul,
+.page-four-bottom ul {
     height: 99%;
     margin: 0;
     padding-top: 1%;
 }
-.page-four-bottom ul{
+.page-four-bottom ul {
     margin-left: 10%;
 }
-.page-four-top{
+.page-four-top {
     display: none;
 }
-.page-four-bottom{
+.page-four-bottom {
     margin-left: 1000px;
 }
-.page-four-body hr{
+.page-four-body hr {
     width: 98%;
     height: 2%;
-    background-color: #2296E8;
-    border-radius: 10px;
     margin-left: -1200px;
+    border-radius: 10px;
+    background-color: #2296e8;
 }
-.page-four-body li{
-    background-color: #D3D6DB;
+.page-four-body li {
     float: left;
-    margin-left: 5%;
     width: 40%;
     height: 80%;
-    border:1px solid #2296E8;
+    margin-left: 5%;
+    padding: 10px;
+    border: 1px solid #2296e8;
     border-radius: 10px;
-    padding: 10px
+    background-color: #d3d6db;
 }
-.page-four-top li{
-   
-}
-.page-four-bottom li{
-    
-}
-.page-five-body{
+
+
+.page-five-body {
     width: 80%;
     height: 75%;
     margin: 0 auto;
     text-align: left;
 }
-.page-five-left{
+.page-five-left {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    float: left;
     width: 60%;
     height: 95%;
     margin: 1%;
-    float: left;
     color: #fff;
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
 }
-.page-five-left a{
-    color: #fff;
+.page-five-left a {
     text-decoration: none;
+    color: #fff;
 }
-.page-five-right{
+.page-five-right {
+    float: left;
     width: 30%;
     height: 95%;
-    float: left;
     margin: 1%;
     margin-left: 6%;
 }
-.page-five-left div{
-    width: 48%;
+.page-five-left div {
     float: left;
+    width: 48%;
 }
-.page-five-left .aboutme{
+.page-five-left .aboutme {
     width: 100%;
 }
-.page-one{
-    color: #fff;
+.page-one {
     font-size: 16px;
+    color: #fff;
 }
